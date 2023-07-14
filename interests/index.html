@@ -45,15 +45,45 @@
 
 <p>My interest mainly lies in the application of numerical and computational methods in physics and planetary sciences. I was fortunate to gain experience in computational fluid dynamics (CFD) and its application in geodynamics.</p>
 
-<p>I’ve done programming in Fortran, C/C++, Python, Java, and Octave/MATLAB, as well as optimization of numerical algorithms, parallel processing, and visualization of large datasets. I have experience utilizing high-performance computing (HPC) codes on computer clusters (primarily on Digital Alliance resources -formerly Compute Canada).</p>
+<p>I have done programming in Fortran, C/C++, Python, Java, and Octave/MATLAB, as well as optimization of numerical algorithms, parallel processing, and visualization of large datasets. I have experience utilizing high-performance computing (HPC) codes on computer clusters (primarily on Digital Alliance resources -formerly Compute Canada).</p>
+
+<hr />
 
 <hr />
 
 <h3 id="undergraduate-research-projects">Undergraduate Research Projects</h3>
 
-<h4 id="computational-fluid-dynamics">Computational Fluid Dynamics:</h4>
+<h4 id="numerical-methods-for-astrophysics">Numerical Methods for Astrophysics:</h4>
 
-<p><strong>Solving for isoviscous infinite Prantdl number convection: application of finite volumes and finite differences methods in a two-dimensional Cartesian system</strong></p>
+<p>« Optimizations of the symplectic integrators for solar system simulations »</p>
+
+<ul>
+  <li>Implementation of SIMD on single processors using AVX intrinsics in <a href="https://rebound.readthedocs.io/">REBOUND</a>’s <a href="http://adsabs.harvard.edu/abs/2015MNRAS.452..376R">WHFast</a> (Rein &amp; Tamayo, 2015) integrator</li>
+  <li>Required hardware: AVX-enabled CPUs</li>
+  <li>Supervisor: Prof. Hanno Rein</li>
+</ul>
+
+<blockquote>
+  <p>This project was later pursued, resulting in the development of «WHFast512» integrator:</p>
+  <ul>
+    <li>up to 4.7 times faster than the non-vectorized version of WHFast</li>
+    <li>made available in version <a href="https://github.com/hannorein/rebound/releases/tag/3.26.0">3.26.0</a> of <a href="https://github.com/hannorein/rebound">REBOUND</a></li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>For a detailed description of its implementation, please refer to:</p>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>« <a href="https://arxiv.org/abs/2307.05683">Javaheri, P., Rein, H., and D. Tamayo (2023),  WHFast512: A symplectic N-body integrator for planetary systems optimized with AVX512 instructions <em>[submitted]</em>.</a>»</p>
+  </blockquote>
+</blockquote>
+
+<h4 id="computational-fluid-dynamics-thesis">Computational Fluid Dynamics [Thesis]:</h4>
+
+<p>« Solving for isoviscous infinite Prantdl number convection: application of finite volumes and finite differences methods in a two-dimensional Cartesian system »</p>
 
 <p><img style="float: bottom;" src="/webpage/media/cover4.png" /></p>
 
@@ -61,17 +91,10 @@
   <li>Implemented fully in Fortran</li>
   <li>Equally-spaced Eulerian discretization with interpolated staggered grid points</li>
   <li>Using LSQR iterative solver by Paige, C. C. and Saunders, M. A. (1982)</li>
+  <li>Supervisor: Prof. Julian Lowman</li>
 </ul>
 
-<p>Supervisor: Prof. Julian Lowman</p>
-
 <hr />
-
-<h4 id="numerical-methods-for-astrophysics">Numerical Methods for Astrophysics:</h4>
-
-<p><em>[In progress]</em></p>
-
-<p>Supervisor: Prof. Hanno Rein</p>
 
 <hr />
 
